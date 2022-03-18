@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body{
+            background-image: url('learning image');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <p>
+                Welcome!! Students....
+            </p>
+        </div>
+    </header>
+    <section class="main-part">
+   <div class="left-part">
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" , id="fname" , name="fname"><br>
+        <label for="lname"> Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="radio" id="button" name="click" value="Male">
+        <label for="button">Male</label><br>
+        <input type="radio" , id="button 1", name="click", value="Female">
+        <label for="button 1">Female</label><br>
+        <input type="radio" id="button 2" name="click" value="Others">
+        <label for="button 2">Others</label><br>
+        <p class="eg"><b>Which coding language is known to you?</b></p>
+        <input type="checkbox" id="lang1" name="coding 1" value="JAVA">
+        <label for="lang1">JAVA</label><br>
+        <input type="checkbox" id="lang2" name="coding 2" value="Python">
+        <label for="lang2"> Python</label><br>
+        <input type="submit" value="submit">
+    </form>
+   </div>
+   <div class="right-part">
+    <table class= "tabs">
+        <tr>
+            <th > Subject</th>
+            <th>Duration</th>
+            <th>fees</th>
+        </tr>
+        <tr>
+            <td>JAVA </td>
+            <td> 3 months</td>
+            <td> 450</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>3 months</td>
+            <td> 550</td>
+        </tr>
+    </table>
+   </div> 
+    </section>
+    <section>
+       <button type="button" onclick="document.getElementById('jscript').innerHTML=Date()">
+        Click Me
+        </button>
+        <p id="jscript"></p>
+    </section>
+    <section>
+        <p id="change">Whats next</p>
+        <button type="button" onclick="clickChanged()">Click it</button>
+    </section>
+    <section> 
+        <p id="add"></p>
+    </section>
+   
+    <footer>
+        <p> Thank you for visiting...
+        </p>
+    </footer>
+</body>
+</html>

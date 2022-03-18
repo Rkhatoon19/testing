@@ -1,0 +1,39 @@
+header{
+    background-color:rgb(248, 82, 198);
+}
+body{
+    padding:0px;
+    margin: 0;
+}
+
+.eg
+{
+    color:blueviolet;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px;
+    border-top-color: blueviolet;
+    
+}
+table.tabs{border-collapse: separate;}
+table{
+    
+    border-style:groove;
+    border-width:3px;
+    border-color: aqua;
+    padding: 15px;
+    margin: 15px;
+}
+.main-part{
+    display: flex;
+}
+.left-part{
+    width: 100% ;
+}
+.right-part{
+    width:100%
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin: 100%;
+}

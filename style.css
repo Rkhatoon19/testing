@@ -1,39 +1,18 @@
-header{
-    background-color:blue;
-}
 body{
-    padding:0px;
-    margin: 0;
+    background-color: antiquewhite;
+    padding: 3px;
 }
-
-.eg
-{
-    color:blueviolet;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 3px;
-    border-top-color: blueviolet;
-    
-}
-table.tabs{border-collapse: separate;}
-table{
-    
-    border-style:groove;
-    border-width:3px;
-    border-color: aqua;
-    padding: 15px;
-    margin: 15px;
-}
-.main-part{
+.button{
     display: flex;
 }
-.left-part{
-    width: 100% ;
+.heading{
+    background-color: rgb(226, 120, 44);
+    color:indigo;
+    text-align: center;
 }
-.right-part{
-    width:100%
-}
-footer{
+.division{
     display: flex;
-    align-items: center;
-    margin: 100%;
+    justify-content: space-between;
+    /* border: 3cm;
+    border-width: 4px; */
 }

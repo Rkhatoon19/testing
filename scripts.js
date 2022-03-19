@@ -8,5 +8,5 @@ function clickChanged()
 function addition(a,b)
 {
     return a+b;
+    document.getElementById('add').innerHTML=addition(70,20);
 }
-document.getElementById('add').innerHTML=addition(70,20);

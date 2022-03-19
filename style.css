@@ -1,18 +1,24 @@
 body{
     background-color: antiquewhite;
     padding: 3px;
+    
 }
 .button{
     display: flex;
 }
+.main-part{
+    width:70%;
+    margin: 0 auto;
+}
 .heading{
-    background-color: rgb(226, 120, 44);
+    background-color: rgb(243, 151, 85);
     color:indigo;
     text-align: center;
+    border-radius: 10px;
 }
 .division{
     display: flex;
     justify-content: space-between;
-    /* border: 3cm;
-    border-width: 4px; */
+    background-color:rgb(176, 224, 243);
+    border-radius: 5px;
 }
